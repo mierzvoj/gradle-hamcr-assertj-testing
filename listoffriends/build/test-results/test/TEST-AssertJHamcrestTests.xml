@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AssertJHamcrestTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-11-23T21:44:27" hostname="BAZALUDZIUMARŁY" time="0.064">
+  <properties/>
+  <testcase name="testListContentEmpty()" classname="AssertJHamcrestTests" time="0.011"/>
+  <testcase name="testListLength()" classname="AssertJHamcrestTests" time="0.004"/>
+  <testcase name="testListBeginsAssertJ()" classname="AssertJHamcrestTests" time="0.042"/>
+  <testcase name="testListContainsAssertJ()" classname="AssertJHamcrestTests" time="0.001"/>
+  <testcase name="testListContentEmptyCompletely()" classname="AssertJHamcrestTests" time="0.0"/>
+  <testcase name="testListContent()" classname="AssertJHamcrestTests" time="0.001"/>
+  <testcase name="testListContentNotNullAssertJ()" classname="AssertJHamcrestTests" time="0.001"/>
+  <testcase name="testListContentAssertJ()" classname="AssertJHamcrestTests" time="0.001"/>
+  <testcase name="testListContentUnOrdered()" classname="AssertJHamcrestTests" time="0.001"/>
+  <testcase name="testListLengthAssertJ()" classname="AssertJHamcrestTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
