@@ -1,4 +1,5 @@
 import org.example.Friendships;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -12,6 +13,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class GradleTests {
 
     Friendships fs = new Friendships();
+
+
+    @Before
+    public void setUp() {
+    }
 
     @Test
     public void testPrivateMethodUsingReflection() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {

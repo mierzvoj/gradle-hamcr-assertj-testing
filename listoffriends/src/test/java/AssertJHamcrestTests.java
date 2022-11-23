@@ -1,4 +1,5 @@
 import org.example.Friendships;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.InvocationTargetException;
@@ -12,6 +13,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class AssertJHamcrestTests {
     Friendships fs = new Friendships();
+
+    @Before
+    public void setUp() {
+    }
 
     //Hamcrest
     @Test
