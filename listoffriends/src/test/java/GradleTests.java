@@ -35,4 +35,20 @@ public class GradleTests {
         Assertions.assertNotEquals(Collections.EMPTY_LIST, fs);
 
     }
+
+    @Test
+    public void testEmptyFriendsList() {
+        Friendships fs1 = new Friendships();
+        fs1.makeFriends("Mike", "");
+        assertTrue(fs1.getFriendsList("Mike").size()== 1);
+    }
+
+
+    @Test
+    public void testEmptyFriendsList1() {
+        Friendships fs1 = new Friendships();
+        fs1.makeFriends("", "");
+        assertTrue(fs1.getFriendsList("Mike").size()== 0);
+    }
+
 }
